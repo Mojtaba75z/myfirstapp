@@ -11,7 +11,8 @@ db = mysql.connector.connect(
     host = "sql7.freesqldatabase.com",
     user = "sql7765008",
     password = "tGfmQAlvDa",
-    database = "sql7765008"
+    database = "sql7765008",
+    connection_timeout = 30
 )
 
 cursor = db.cursor()
