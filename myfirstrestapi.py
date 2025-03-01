@@ -12,7 +12,7 @@ db = mysql.connector.connect(
     user = "sql7765008",
     password = "tGfmQAlvDa",
     database = "sql7765008",
-    connection_timeout = 30
+    connection_timeout = 90
 )
 
 cursor = db.cursor()
